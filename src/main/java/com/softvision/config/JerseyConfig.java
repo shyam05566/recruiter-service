@@ -2,7 +2,7 @@ package com.softvision.config;
 
 import javax.ws.rs.ApplicationPath;
 
-import com.softvision.ims.controller.CandidateController;
+import com.softvision.controller.CandidateController;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.context.annotation.Configuration;
 

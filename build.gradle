@@ -29,5 +29,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-jersey')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compileOnly('org.projectlombok:lombok')
+	compile(group: 'javax.persistence', name: 'javax.persistence-api', version:'2.2') {
+		exclude(module: 'hibernate-validator')
+	}
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

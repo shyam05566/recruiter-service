@@ -43,10 +43,5 @@ public class ServiceConstants {
 	
 	/** The Constant PRODUCTS. */
 	public static final String BLANK_SPACE = " ";
-	
-	
-	
-	
-	
-	
+
 }
